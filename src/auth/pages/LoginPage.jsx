@@ -7,20 +7,25 @@ export const LoginPage = () => {
   const navigate = useNavigate();
 
   const onLogin = () => {
-    login("Anibal");
+    login("Invitado");
+    const lastPath = localStorage.getItem("lastPath") || "/";
 
-    navigate("/", {
+    navigate(lastPath, {
       replace: true,
     });
   };
 
   return (
-    <div className="container mt-5">
-      <h1>Login</h1>
-      <hr />
-      <button className="btn btn-primary" onClick={onLogin}>
-        Login
-      </button>
-    </div>
+    <>
+      <div className="login">
+        <div className="login-info">
+          <h1>Heroes SPA</h1>
+          <h5>Access Granted</h5>
+          <button className="btn-login" onClick={onLogin}>
+            Login
+          </button>
+        </div>
+      </div>
+    </>
   );
 };
