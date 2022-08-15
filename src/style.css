@@ -1,0 +1,52 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(129, 88, 10, 0.548) 0,
+      rgba(255, 255, 255, 0.103)
+    ),
+    url("../assets/background.jpg");
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.801);
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 5px #000000b2;
+  width: 40vh;
+  height: 40vh;
+}
+
+.h1 {
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.h5 {
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.btn-login {
+  background-color: rgba(129, 88, 10, 0.548);
+  border-radius: 19px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 37px;
+}
+
+.footer {
+  background: red;
+  color: white;
+}
