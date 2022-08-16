@@ -9,7 +9,7 @@ export const LoginPage = () => {
   const navigate = useNavigate();
 
   const onLogin = () => {
-    login("Invitado");
+    login("Guest");
     const lastPath = localStorage.getItem("lastPath") || "/";
 
     navigate(lastPath, {
