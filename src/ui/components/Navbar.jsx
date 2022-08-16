@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../auth/context/AuthContext";
 
+import "../styles/Navbar.css";
+
 export const Navbar = () => {
   const { user, logout } = useContext(AuthContext);
 
@@ -20,7 +22,12 @@ export const Navbar = () => {
         <div className="navbar-collapse">
           <div className="navbar-nav">
             <Link className="navbar-brand" to="/">
-              Associations
+              <img
+                src="../../assets/favicon-32x32.png"
+                className="icon"
+                alt="icon"
+              />
+              Heroes SPA
             </Link>
             <NavLink
               className={({ isActive }) =>
