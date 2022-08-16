@@ -24,6 +24,7 @@ export const SearchPage = () => {
 
   return (
     <>
+      <hr />
       <h1>Search</h1>
       <hr />
 
