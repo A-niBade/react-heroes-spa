@@ -18,7 +18,7 @@ export const HeroCard = ({
 
   return (
     <Link
-      to={`./hero/${id}`}
+      to={`/hero/${id}`}
       className="hero-pic animate__animated animate__fadeIn"
     >
       <img src={heroImageUrl} className="img img-responsive" alt={superhero} />
