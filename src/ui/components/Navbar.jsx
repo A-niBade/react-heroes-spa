@@ -22,7 +22,7 @@ export const Navbar = () => {
         <div class="container-fluid">
           <Link className="navbar-brand" to="/">
             <img
-              src="../../assets/favicon-32x32.png"
+              src="./../../assets/favicon-32x32.png"
               className="icon"
               alt="icon"
             />
