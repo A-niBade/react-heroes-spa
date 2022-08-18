@@ -18,11 +18,11 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-2">
+        <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img
-              src="./../../assets/favicon-32x32.png"
+              src="./../../static/favicon-32x32.png"
               className="icon"
               alt="icon"
             />
