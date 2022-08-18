@@ -7,7 +7,7 @@
       rgba(129, 88, 10, 0.548) 0,
       rgba(255, 255, 255, 0.103)
     ),
-    url("../assets/background.jpg");
+    url("../static/background.jpg");
   width: 100vw;
   height: 100vh;
 }
