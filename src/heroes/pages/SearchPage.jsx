@@ -35,7 +35,7 @@ export const SearchPage = () => {
         <div className="col-5">
           <h4>Searching....</h4>
           <hr />
-          <form onSubmit={onSearchSubmit}>
+          <form onSubmit={onSearchSubmit} data-testid="form">
             <input
               type="text"
               placeholder="Hero name"
@@ -62,6 +62,7 @@ export const SearchPage = () => {
 
           <div
             className="alert alert-danger animate__animated animate__fadeIn"
+            data-testid="alert-danger"
             style={{ display: showError ? "" : "none" }}
           >
             No hero with <b>{q}</b>
